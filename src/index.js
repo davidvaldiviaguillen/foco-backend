@@ -14,7 +14,7 @@ app.use('/api/projects', require('./routes/project.routes'));
 app.use('/api/tasks', require('./routes/task.routes'));
 app.use('/api/user', require('./routes/user.routes'));
 
-app.get('/', (req, res) => res.json({ message: 'Focusly API funcionando' }));
+app.get('/', (req, res) => res.json({ message: 'Foco está funcionando' }));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {console.log(`Servidor corriendo en puerto ${PORT}`);
